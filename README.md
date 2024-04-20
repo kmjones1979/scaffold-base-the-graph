@@ -135,11 +135,9 @@ yarn fork
 
 # Showing coinbase smart wallet
 
-Coinbase smart wallet will show automatically when the current network is set to ***baseSepolia***.
+Coinbase smart wallet will be shown automatically when [scaffold.config.ts](https://github.com/BuidlGuidl/scaffold-base/blob/main/packages/nextjs/scaffold.config.ts) `targetNetworks` contains one of the network as ***baseSepolia*** in it.
 
-Since [coinbase beta sdk connector](https://github.com/coinbase/coinbase-wallet-sdk/blob/master/packages/wallet-sdk/docs/v4_with_wagmi.md) only works with Base Sepolia for now, it won't be shown on connect modal when there is another network selected. 
-
-When on a local chain, Scaffold-ETH's burner wallet is shown instead of Coinbase smart wallet. 
+Since [coinbase beta sdk connector](https://github.com/coinbase/coinbase-wallet-sdk/blob/master/packages/wallet-sdk/docs/v4_with_wagmi.md) for now only works with Base Sepolia.
 
 For interacting with contracts, you can nicely use [scaffold-eth custom hooks](https://docs.scaffoldeth.io/hooks/) (wrappers around wagmi) or wagmi hooks directly without needing to change anything. 
 
