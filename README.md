@@ -6,13 +6,13 @@
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
 
-Scaffold-Base is a fork of Scaffold-ETH2 ready to ship to Base. This fork provides native support for Base and Base Sepolia testnet, direct access to the Base faucets, and [coinbase-sdk-wallet](https://github.com/coinbase/coinbase-wallet-sdk/) beta preconfigured which allows 4337 account abstraction using passkeys.
+Scaffold-Base is a fork of Scaffold-ETH-2 ready to ship to Base. This fork provides native support for Base and Base Sepolia testnet, direct access to the Base faucets, and [coinbase-sdk-wallet](https://github.com/coinbase/coinbase-wallet-sdk/) beta preconfigured which allows 4337 account abstraction using passkeys.
 
 ![Scaffold-Base)](https://github.com/damianmarti/se-2/assets/466652/eac667a7-68fb-4f69-a427-126f7de4114d)
 
-We highly recommend the Scaffold-ETH2 docs as the primary guideline.
+We highly recommend the Scaffold-ETH-2 docs as the primary guideline.
 
-# (forked from 🏗 Scaffold-ETH2)
+# (forked from 🏗 Scaffold-ETH-2)
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
