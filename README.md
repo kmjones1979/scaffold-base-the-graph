@@ -6,7 +6,7 @@
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
 
-Scaffold-Base is a fork of Scaffold-ETH2 ready to ship to Base. This fork provides native support for Base and Base Sepolia testnet, and direct access to the Base faucets. 
+Scaffold-Base is a fork of Scaffold-ETH2 ready to ship to Base. This fork provides native support for Base and Base Sepolia testnet, direct access to the Base faucets, and [coinbase-sdk-wallet](https://github.com/coinbase/coinbase-wallet-sdk/) beta preconfigured which allows 4337 account abstraction using passkeys.
 
 ![Scaffold-Base)](https://github.com/damianmarti/se-2/assets/466652/eac667a7-68fb-4f69-a427-126f7de4114d)
 
@@ -133,6 +133,15 @@ yarn fork
 
 (now your local hardhat chain is a fork of Base and you can talk to forked Base contracts)
 
+# Showing coinbase smart wallet
+
+Coinbase smart wallet will show automatically when the current network is set to ***baseSepolia***.
+
+Since [coinbase beta sdk connector](https://github.com/coinbase/coinbase-wallet-sdk/blob/master/packages/wallet-sdk/docs/v4_with_wagmi.md) only works with Base Sepolia for now, it won't be shown on connect modal when there is another network selected. 
+
+When on a local chain, Scaffold-ETH's burner wallet is shown instead of Coinbase smart wallet. 
+
+For interacting with contracts, you can nicely use [scaffold-eth custom hooks](https://docs.scaffoldeth.io/hooks/) (wrappers around wagmi) or wagmi hooks directly without needing to change anything. 
 
 ## Documentation
 
