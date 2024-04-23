@@ -135,7 +135,7 @@ yarn fork
 
 # <img src="https://github.com/damianmarti/se-2/assets/466652/a795d1f3-980b-4e53-9784-ac53b6dd980e" width="35"> Coinbase Smart Wallet
 
-Coinbase Smart Wallet will be shown automatically when [scaffold.config.ts](https://github.com/BuidlGuidl/scaffold-base/blob/main/packages/nextjs/scaffold.config.ts) `targetNetworks` contains one of the network as ***baseSepolia*** in it.
+Coinbase Smart Wallet will be shown automatically when [scaffold.config.ts](https://github.com/BuidlGuidl/scaffold-base/blob/main/packages/nextjs/scaffold.config.ts) `targetNetworks` contains the network ***baseSepolia***.
 
 Since [coinbase beta sdk connector](https://github.com/coinbase/coinbase-wallet-sdk/blob/master/packages/wallet-sdk/docs/v4_with_wagmi.md) for now only works with Base Sepolia.
 
