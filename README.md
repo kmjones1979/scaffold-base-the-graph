@@ -1,5 +1,5 @@
 
-# 🏗️ Scaffold-Base <img src="https://github.com/damianmarti/se-2/assets/466652/a795d1f3-980b-4e53-9784-ac53b6dd980e" width="35">
+# 🏗️ Scaffold-Base 🔵
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
@@ -133,9 +133,9 @@ yarn fork
 
 (now your local hardhat chain is a fork of Base and you can talk to forked Base contracts)
 
-# Showing coinbase smart wallet
+# <img src="https://github.com/damianmarti/se-2/assets/466652/a795d1f3-980b-4e53-9784-ac53b6dd980e" width="35"> Coinbase Smart Wallet
 
-Coinbase smart wallet will be shown automatically when [scaffold.config.ts](https://github.com/BuidlGuidl/scaffold-base/blob/main/packages/nextjs/scaffold.config.ts) `targetNetworks` contains one of the network as ***baseSepolia*** in it.
+Coinbase Smart Wallet will be shown automatically when [scaffold.config.ts](https://github.com/BuidlGuidl/scaffold-base/blob/main/packages/nextjs/scaffold.config.ts) `targetNetworks` contains one of the network as ***baseSepolia*** in it.
 
 Since [coinbase beta sdk connector](https://github.com/coinbase/coinbase-wallet-sdk/blob/master/packages/wallet-sdk/docs/v4_with_wagmi.md) for now only works with Base Sepolia.
 
