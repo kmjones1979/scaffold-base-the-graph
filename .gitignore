@@ -21,3 +21,11 @@ node_modules
 
 # cli
 dist
+
+# misc
+.editorconfig
+
+# subgraph
+packages/subgraph/generated/*
+packages/subgraph/build/*
+packages/subgraph/graph-node/data

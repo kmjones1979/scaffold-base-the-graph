@@ -1,0 +1,12 @@
+{
+  "localhost": {
+    "YourContract": {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+    }
+  },
+  "baseSepolia": {
+    "YourContract": {
+      "address": "0x57d3dC582857089cb36C2ED4ca7853B18C9e2c60"
+    }
+  }
+}
