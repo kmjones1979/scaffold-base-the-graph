@@ -24,6 +24,10 @@ dist
 
 # misc
 .editorconfig
+*.env
+
+# SE2
+packages/hardhat/deployments
 
 # subgraph
 packages/subgraph/generated/*
